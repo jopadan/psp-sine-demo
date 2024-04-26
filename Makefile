@@ -10,7 +10,7 @@ LDFLAGS  =
 EXTRA_TARGETS = EBOOT.PBP
 PSP_EBOOT_TITLE = Sine Demo
 
-PSPSDK=/usr/local/pspdev/psp/sdk
+PSPSDK=$(PSPDEV)/psp/sdk
 include $(PSPSDK)/lib/build.mak
 
 run: $(TARGET).elf
